@@ -13,4 +13,5 @@ RUN pip install -r requirements.txt
 COPY flask /app
 
 # configure the container to run in an executed manner
-ENTRYPOINT [ "python","/app/testapp/bin/create_app.py"  ]
+ENTRYPOINT [ "python","/app/app.py"  ]
+
